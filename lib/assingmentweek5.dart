@@ -130,7 +130,7 @@ class _AssignmentWeek5State extends State<AssignmentWeek5> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Product')),
+      appBar: AppBar(title: const Text('Product'), backgroundColor: Colors.green,)),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _openForm(),
         child: const Icon(Icons.add),
