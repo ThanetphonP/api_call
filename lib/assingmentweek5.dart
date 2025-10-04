@@ -5,9 +5,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-/// Change this to your running API:
-/// - For FastAPI: 'http://10.0.2.2:8000/products'
-/// - For json-server: 'http://10.0.2.2:3000/products'
 final String baseUrl = 'http://localhost:3000/products';
     
 
